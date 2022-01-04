@@ -1,0 +1,99 @@
+* {             /* RESET DO CSS */
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    margin: 0;
+    background: linear-gradient(180deg, rgba(54,77,204,1) 0%, rgba(19,35,124,1) 100%) no-repeat;
+}
+
+h1 {
+    font-family: 'Architects Daughter', cursive;
+    font-weight: 100;
+    font-size: 38px;
+    margin-top: 3px;
+}
+
+h2 {
+    font-size: 21px;
+}
+
+.fotoPerfil {
+    border-radius: 100%;
+    width: 170px;
+    border: 2px solid #FFF;
+    box-shadow: 0 0 20px #FFF;
+}
+
+.profile {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.social img {
+    width: 34px;
+}
+
+.social ul {
+    list-style: none;
+    display: flex;     /* O Flex box alinhas os itens em linha! */
+    justify-content: center;
+  /*justify-content: space-between;*/  
+    margin: 12px 0;
+}
+
+ .social ul li {
+    margin: 0.6%;
+} 
+
+.botao-chamada {
+    margin: 0 auto;
+}
+
+.botao-chamada ul {
+    list-style: none;
+}
+
+.botao-chamada a {
+    text-decoration: none;
+}
+
+.botao-chamada h2 {
+    color: rgba(54,57,204);
+    font-weight: bold;
+}
+
+.botao-chamada p {
+    padding-top: 5px;
+    color: rgb(73 73 73);
+}
+
+.cinza a {
+    color: rgb(73 73 73);
+    text-decoration: underline;
+}
+
+.botao {
+    background: #fff;
+    padding: 18px;
+    border: 5px solid #fff;
+    box-shadow: 0 0 15px #fff;
+    margin: 2% auto;
+    border-radius: 10px;
+    max-width: 1000px;
+    transition: all 0.3s;
+}
+
+.botao:hover {
+    background-color: rgb(243, 243, 243);
+    border: 5px solid rgb(243, 243, 243);
+}
+
+@media only screen and (max-width: 1056px) {
+    .botao {
+      margin: 3%;
+    }
+  }
